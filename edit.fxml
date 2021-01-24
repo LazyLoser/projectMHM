@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectMHM.editCon">
+   <children>
+      <ImageView fitHeight="819.0" fitWidth="1282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/830200-free-download-google-backgrounds-1920x1080-meizu.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="142.0" layoutY="46.0" prefHeight="638.0" prefWidth="998.0" style="-fx-background-color: white;">
+         <children>
+            <TableView fx:id="emptable" layoutX="169.0" layoutY="125.0" onMouseClicked="#select" prefHeight="177.0" prefWidth="653.0">
+              <columns>
+                <TableColumn fx:id="EName" prefWidth="328.0" text="Username" />
+                  <TableColumn fx:id="EPassword" prefWidth="324.0" text="Password" />
+              </columns>
+            </TableView>
+            <TextField fx:id="InsertEname" layoutX="369.0" layoutY="400.0" prefHeight="41.0" prefWidth="311.0" promptText="Name">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <TextField fx:id="InsertEPass" layoutX="369.0" layoutY="472.0" prefHeight="41.0" prefWidth="311.0" promptText="Password">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <ImageView fitHeight="41.0" fitWidth="43.0" layoutX="318.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@picture/img_296750.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="318.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@picture/gender-neutral-user.png" />
+               </image>
+            </ImageView>
+            <Button id="button" layoutX="212.0" layoutY="548.0" mnemonicParsing="false" onAction="#addEAcc" stylesheets="@style.css" text="Add">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button id="button" layoutX="718.0" layoutY="548.0" mnemonicParsing="false" onAction="#delEAcc" stylesheets="@style.css" text="Delete">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <AnchorPane layoutX="114.0" layoutY="-4.0" prefHeight="88.0" prefWidth="998.0" style="-fx-background-color: white; -fx-border-color: white white black; -fx-border-width: 3px;" AnchorPane.bottomAnchor="550.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="54.0" layoutY="36.0" prefHeight="88.0" prefWidth="998.0" text="DELETE OR ADD NEW EMPLOYEE ACCOUNT" textFill="LIGHTSEAGREEN" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="Gill Sans MT" size="44.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button id="button" layoutX="462.0" layoutY="549.0" mnemonicParsing="false" onAction="#setting" stylesheets="@style.css" text="Back">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="button" layoutX="440.0" layoutY="326.0" mnemonicParsing="false" onAction="#loadE" stylesheets="@style.css" text="Load Data">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

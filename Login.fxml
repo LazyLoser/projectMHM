@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="logPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="1121.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectMHM.Controller">
+    <children>
+      <ImageView fitHeight="906.0" fitWidth="1210.0" layoutX="-62.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/wallpaper-3a763.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="318.0" layoutY="62.0" prefHeight="573.0" prefWidth="521.0" style="-fx-background-color: lightblue;" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="62.0">
+         <children>
+            <AnchorPane layoutX="76.0" layoutY="-47.0" prefHeight="122.0" prefWidth="521.0" style="-fx-border-color: lightblue; -fx-background-color: white; -fx-border-width: 6px;" AnchorPane.bottomAnchor="451.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="50.0" layoutY="58.0" prefHeight="133.0" prefWidth="511.0" text="MHAT HTAR MAL" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="55.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button layoutX="144.0" layoutY="512.0" mnemonicParsing="false" onAction="#ask" style="-fx-background-color: lightblue; -fx-border-color: lightblue lightblue black;" text="Forgot Password? Click Here to continue." />
+              <Button layoutX="219.0" layoutY="455.0" mnemonicParsing="false" onAction="#Loginbutton" prefHeight="27.0" prefWidth="79.0" style="-fx-background-color: #2B3856;" text="Log in" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+        <TextField fx:id="txtUserName" layoutX="452.0" layoutY="363.0" prefHeight="39.0" prefWidth="273.0" promptText="username" />
+        <PasswordField fx:id="txtPassword" layoutX="452.0" layoutY="449.0" prefHeight="39.0" prefWidth="273.0" promptText="password" />
+        <ImageView fitHeight="51.0" fitWidth="53.0" layoutX="392.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@picture/anyone.png" />
+            </image>
+      </ImageView>
+        <ImageView fitHeight="51.0" fitWidth="51.0" layoutX="392.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@picture/538684-lock_512x512.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="436.0" layoutY="237.0" prefHeight="60.0" prefWidth="273.0" text="Please Login First">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

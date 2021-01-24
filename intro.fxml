@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="757.0" prefWidth="1135.0" style="-fx-background-color: ;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Intro">
+   <children>
+      <ImageView fitHeight="757.0" fitWidth="1214.0" opacity="0.76" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@274546-beautiful-steven-universe-backgrounds-1920x1080-for-android-40.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="111.0" layoutY="114.0" opacity="0.73" prefHeight="515.0" prefWidth="478.0" style="-fx-background-color: linear-gradient(#1d2b64,#f8cdda);">
+         <children>
+            <Label layoutX="14.0" layoutY="168.0" prefHeight="61.0" prefWidth="219.0" text="Contact Us">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ccbcbc" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="14.0" layoutY="264.0" text="We will save everything that you want to">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ccbcbc" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="14.0" layoutY="296.0" text="keep as a secret about your privacy.">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ccbcbc" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="589.0" layoutY="78.0" prefHeight="588.0" prefWidth="323.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="588.0" fitWidth="330.0" opacity="0.66" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images7.jpg" />
+               </image>
+            </ImageView>
+            <Label graphicTextGap="100.0" layoutX="12.0" layoutY="222.0" prefHeight="61.0" prefWidth="308.0" text="What do you want to do?" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Balloons" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="213.0" fitWidth="184.0" layoutX="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@panda_welcome__icon_by_mrsebuhi-d7c1kx0.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="34.0" layoutY="328.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="262.0" style="-fx-background-color: #737CA1; -fx-border-color: #737CA1; -fx-border-radius: 100; -fx-background-radius: 100;" text="Create" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button layoutX="35.0" layoutY="417.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="262.0" style="-fx-background-color: #737CA1; -fx-border-color: #737CA1; -fx-background-radius: 100; -fx-border-radius: 100;" text="Modify" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

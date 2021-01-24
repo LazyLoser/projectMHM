@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="672.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectMHM.Controller">
+   <children>
+      <ImageView fitHeight="731.0" fitWidth="1202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/830200-free-download-google-backgrounds-1920x1080-meizu.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="105.0" layoutY="50.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <AnchorPane layoutX="92.0" layoutY="94.0" prefHeight="91.0" prefWidth="1042.0" style="-fx-border-color: white white black; -fx-border-width: 3px;" AnchorPane.bottomAnchor="476.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="6.0" layoutY="6.0" prefHeight="89.0" prefWidth="1036.0" text="UPDATE SESSION" textFill="LIGHTSEAGREEN" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="3.0">
+                     <font>
+                        <Font name="Gill Sans MT" size="55.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="252.0" layoutY="129.0" text="NRC">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUpdateHeight" layoutX="123.0" layoutY="334.0" promptText="Eg- 5' 5&quot;">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtUpdateOccupation" layoutX="123.0" layoutY="407.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtUpdateTownship" layoutX="437.0" layoutY="437.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtUpdateAge" layoutX="754.0" layoutY="334.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtUpdateBloodType" layoutX="754.0" layoutY="407.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="128.0" layoutY="311.0" text="Height">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="760.0" layoutY="383.0" text="Type Of Blood">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="438.0" layoutY="403.0" text="Township">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="443.0" layoutY="310.0" text="Address">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="759.0" layoutY="311.0" text="Age">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="797.0" layoutY="476.0" mnemonicParsing="false" onAction="#Updatebutton" prefHeight="58.0" prefWidth="100.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2px;" text="Update">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtUpdateNRCType" layoutX="434.0" layoutY="510.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="437.0" layoutY="477.0" text="NRC Type">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER_RIGHT" layoutX="159.0" layoutY="479.0" mnemonicParsing="false" onAction="#backfun" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2px;" text="Back">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="46.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@picture/circled-left.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="128.0" layoutY="383.0" text="Occupation">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="468.0" layoutY="188.0" prefHeight="105.0" prefWidth="105.0" style="-fx-border-color: black;">
+               <children>
+                  <ImageView fx:id="updateiv" fitHeight="100.0" fitWidth="100.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0" />
+               </children>
+            </AnchorPane>
+            <Button layoutX="618.0" layoutY="220.0" mnemonicParsing="false" onAction="#updateImagebrowsebutton" prefHeight="43.0" prefWidth="54.0" style="-fx-background-color: white; -fx-border-color: black;">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@picture/61.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <TextArea fx:id="txtUpdateAddress" layoutX="434.0" layoutY="330.0" prefHeight="62.0" prefWidth="175.0" />
+            <TextField fx:id="txtUpdateID" layoutX="394.0" layoutY="129.0" promptText="12/XXX(N)000000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="618.0" layoutY="128.0" mnemonicParsing="false" onAction="#updatesearchbutton" style="-fx-background-color: white; -fx-border-color: black;" text="Search">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
